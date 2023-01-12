@@ -230,7 +230,7 @@ Route::get('/', function () {
         ],
     ];
 
-    dd($comics);
+    //dd($comics);
 
     return view('welcome', compact('comics'));
 });

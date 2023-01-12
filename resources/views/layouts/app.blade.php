@@ -14,6 +14,7 @@
     </header>
     <main>
         @yield('main-content')
+        @include('components.comics')
     </main>
     <footer>
         @include('components.footer')

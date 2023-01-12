@@ -1,4 +1,4 @@
-<img src="../assets/img/dc-logo.png" alt="DC-logo">
+<img src="{{ asset('img/dc-logo.png') }}" alt="DC-logo">
     <nav>
         <ul>
           <li>

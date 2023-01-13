@@ -1,11 +1,14 @@
-<img src="{{ asset('img/dc-logo.png') }}" alt="DC-logo">
+    <a href="{{ route('home') }}">
+      <img src="{{ asset('img/dc-logo.png') }}" alt="DC-logo">
+    </a>
+    
     <nav>
         <ul>
           <li>
             <a href="#">CHARACTERS</a>
           </li>
-          <li class="active">
-            <a href="#">COMICS</a>
+          <li>
+            <a href="{{ route('index.comics') }}">COMICS</a>
           </li>
           <li>
             <a href="#">MOVIES</a>
